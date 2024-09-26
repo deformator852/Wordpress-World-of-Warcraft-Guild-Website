@@ -1,0 +1,16 @@
+.header {
+  max-width: 1200px;
+}
+
+.logo {
+  margin-top: 62px;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  margin-top: 10px;
+}

@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  width: 1200px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  max-width: 1200px;
+}
+
+.copyright a,
+.creator a {
+  text-decoration: underline;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

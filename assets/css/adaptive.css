@@ -1,0 +1,269 @@
+@media(min-width:900px) and (max-width:1200px) {
+    #wrapper {
+        width: 922px;
+    }
+
+    .header {
+        width: 922px;
+    }
+
+    .socials {
+        margin-right: 20px;
+    }
+
+
+    .menu {
+        width: 922px;
+    }
+
+    .posts,
+    .post {
+        width: 461px;
+    }
+
+
+    .sidebar {
+        width: 4161px;
+    }
+
+    .content {
+        margin-top: 0;
+        width: 922px;
+    }
+
+    .post-content img {
+        width: 461px;
+        height: 250px;
+    }
+
+    .side-bar__underline-thin {
+        width: 350px;
+    }
+
+    .guild-recruitment__text {
+        width: 395px;
+    }
+
+    .posts {
+        margin-top: -10px;
+    }
+
+    .footer {
+        width: 922px;
+        justify-content: space-evenly;
+    }
+
+    .footer p {
+        width: 380px;
+    }
+
+    .gallery {
+        width: 922px;
+        grid-template-columns: repeat(3, 287px);
+        grid-template-rows: repeat(4, 177px) 350px;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-bottom: 70px;
+        margin-left: 5.5px;
+    }
+
+    .last-gallery-element img {
+        width: 880px;
+        height: 429px;
+    }
+
+    .gallery-content h1 {
+        margin-top: -20px;
+        margin-left: 6px;
+    }
+
+    .rules {
+        min-width: 461px;
+    }
+
+    .want-to-join {
+        max-width: 490px;
+    }
+
+    .select-class {
+        max-width: 490px;
+    }
+
+    .recruitment__image img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .recruitment__image {
+        right: -65px;
+        top: 62px;
+    }
+
+    .requirement {
+        margin-right: 10px;
+    }
+
+    .contact-image img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .contact-image {
+        top: 20px;
+    }
+
+    .contact__title,
+    .contact__form {
+        margin-left: 20px;
+    }
+}
+
+@media(min-width:768px) and (max-width:899px) {
+    #wrapper {
+        width: 768px;
+    }
+
+    .header {
+        width: 768px;
+    }
+
+    .socials {
+        margin-right: 20px;
+    }
+
+    .menu {
+        width: 768px;
+    }
+
+    .posts,
+    .post {
+        width: 384px;
+    }
+
+    .post {
+        margin-left: 10px;
+    }
+
+    .underline {
+        width: 384px;
+    }
+
+    .sidebar {
+        width: 344px;
+        margin-left: 4%;
+    }
+
+    .content {
+        margin-top: 0;
+        width: 768px;
+        padding-left: 0px;
+    }
+
+    .post-content img {
+        width: 384px;
+        height: 220px;
+    }
+
+    .side-bar__underline-thin,
+    .side-bar__underline-bold {
+        width: 320px;
+    }
+
+    .guild-recruitment__text {
+        width: 300px;
+    }
+
+    .posts {
+        margin-top: -10px;
+    }
+
+    .footer {
+        width: 768px;
+        justify-content: space-evenly;
+    }
+
+    .footer p {
+        width: 320px;
+    }
+
+    .gallery {
+        width: 768px;
+        grid-template-columns: repeat(2, 370px);
+        grid-template-rows: repeat(6, 240px) 400px;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-bottom: 40px;
+        margin-left: 8px;
+    }
+
+    .gallery img {
+        width: 370px;
+        height: 240px;
+    }
+
+    .last-gallery-element img {
+        width: 750px;
+        height: 400px;
+    }
+
+    .gallery-content h1 {
+        margin-top: -20px;
+        margin-left: 6px;
+    }
+
+    .rules {
+        min-width: 384px;
+        margin-left: 15px;
+    }
+
+    .want-to-join {
+        max-width: 380px;
+    }
+
+    .select-class {
+        max-width: 380px;
+    }
+
+    .recruitment__image img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .requirement__form input[type='text'],
+    .requirement__form input[type='email'] {
+        width: 300px;
+        height: 34px;
+    }
+
+    .recruitment__image {
+        right: -85px;
+        top: 62px;
+    }
+
+    .requirement {
+        margin-left: 18px;
+    }
+
+    .contact-image img {
+        width: 100px;
+        height: 160px;
+    }
+
+    .contact-image {
+        top: 70px;
+        right: 30px;
+    }
+
+    .contact__title,
+    .contact__form {
+        margin-left: 20px;
+    }
+
+    .select-issue {
+        width: 700px;
+    }
+
+    .contact__form textarea {
+        width: 700px;
+    }
+}

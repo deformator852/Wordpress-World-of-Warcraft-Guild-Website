@@ -1,0 +1,512 @@
+.menu {
+    max-width: 1200px;
+    background-color: black;
+    height: 44px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.menu-link:first-child {
+    margin-left: 20px;
+}
+
+.content {
+    max-width: 1200px;
+    height: 100%;
+    background-color: #1a1a1a;
+    margin-top: 4px;
+    padding: 30px 15px;
+    display: flex;
+}
+
+.sidebar {
+    width: 351px;
+}
+
+.post,
+.post-image,
+.underline {
+    max-width: 783px;
+}
+
+.post-link a {
+    color: #d9e8f7;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 24px;
+}
+
+.post-link {
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+.underline {
+    background-color: white;
+    height: 1px;
+}
+
+.post-date {
+    color: #999;
+    font-style: italic;
+    line-height: 18px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, Sans-serif;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.post-date img {
+    vertical-align: middle;
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+.post {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.post-text p {
+    line-height: 20px;
+    font-family: Arial, Helvetica, Sans-serif;
+    margin-bottom: 20px;
+}
+
+.post-text {
+    list-style: inherit;
+}
+
+.read-more {
+    width: 147px;
+    height: 42px;
+    background-color: black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+}
+
+.read-more a {
+    color: white;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    background-color: #ff6900;
+}
+
+.sidebar {
+    margin-left: 3%;
+}
+
+.side-bar__underline-bold {
+    width: 351px;
+    height: 2px;
+    background-color: white;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.guild-recruitment__text {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, Sans-serif;
+    margin-bottom: 12px;
+}
+
+.class-image {
+    border-radius: 4px;
+    box-shadow: 0 0 3px #000, inset 0 0 5px #ddd;
+    border: 1px solid #aaa;
+    width: 36px;
+    height: 36px;
+}
+
+.wow-class {
+    display: flex;
+}
+
+.role-and-class {
+    display: flex;
+    width: 250px;
+}
+
+.class {
+    color: #ff7d0a;
+    font-weight: 700;
+    font-family: Arial, Helvetica, Sans-serif;
+    margin-bottom: 5px;
+}
+
+.role-and-class div {
+    margin-left: 7px;
+}
+
+.role {
+    color: #cee683;
+    font-style: italic;
+    font-family: Arial, Helvetica, Sans-serif;
+}
+
+.necessity {
+    font-family: Arial, Helvetica, Sans-serif;
+    font-weight: 700;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.high {
+    color: #ff420e;
+}
+
+.medium {
+    color: #ffd320;
+}
+
+.low {
+    color: #1ef1a2;
+}
+
+.side-bar__underline-thin {
+    width: 325px;
+    height: 1px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.woltk-progress__title {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.woltk-progress-image img {
+    width: 170px;
+    height: 30.6px;
+}
+
+.woltk-progress-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.raid {
+    max-width: 351px;
+    min-height: 58px;
+    background-position: top center;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    padding-left: 3px;
+    padding-top: 1px;
+    margin-bottom: 8px;
+}
+
+.raid::before {
+    content: "\276F";
+}
+
+.raid-info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+}
+
+.raid-name {
+    margin-left: 3px;
+    width: 250px;
+}
+
+.boss-count {
+    margin-right: 3px;
+    width: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.killed {
+    color: #1eff00;
+}
+
+.boss-list__item::before {
+    content: "\276F";
+    color: white;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+.boss-list__item {
+    font-family: Arial, Helvetica, Sans-serif;
+    margin-top: 9px;
+    min-height: 24px;
+}
+
+.boss-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+
+.raid {
+    background-size: 100%;
+    transition: background-size 0.5s ease-in-out;
+}
+
+.raid.zoom {
+    background-size: 140%;
+    transition: background-size 0.5s ease-in-out;
+}
+
+.boss-list li:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+
+.boss-list.active {
+    max-height: 1000px;
+}
+
+.boss-list li {
+    height: 34px;
+    font-size: 13px;
+}
+
+.title {
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.recent-posts__title {
+    margin-top: 20px;
+}
+
+.recent-posts__item::before {
+    content: "\276F";
+    margin-right: 15px;
+}
+
+.recent-posts__item a {
+    color: white;
+    font-family: Arial, Helvetica, Sans-serif;
+}
+
+.youtube__title {
+    margin-top: 20px;
+}
+
+.gallery-img img {
+    width: 287px;
+    height: 177px;
+    background-position: top center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.last-gallery-element img {
+    width: 1170px;
+    height: 658px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 287px) 1170px;
+    grid-template-rows: repeat(3, 177px) 658px;
+    gap: 7px;
+    width: 1170px;
+}
+
+.gallery-content {
+    flex-direction: column;
+}
+
+
+.gallery-content h1 {
+    margin-bottom: 4px;
+}
+
+.rules {
+    max-width: 783px;
+    font-family: Arial, Helvetica, Sans-serif;
+}
+
+.rules__title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.rules-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+
+.list {
+    list-style: disc;
+    margin-left: 43px;
+}
+
+.requirement {
+    width: 783px;
+    position: relative;
+}
+
+.recruitment__image {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.requirement__title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.requirement__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.requirement__form input[type='text'] {
+    width: 391px;
+    height: 34px;
+}
+
+.requirement__form input[type='email'] {
+    width: 391px;
+    height: 54px;
+}
+
+.select {
+    height: 54px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.select-class {
+    width: 783px;
+}
+
+.requirement__label {
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.required {
+    font-size: 85%;
+    font-weight: 400;
+    opacity: .6;
+    font-family: Arial, Helvetica, Sans-serif;
+    margin-left: .25em;
+}
+
+.requirement__form textarea {
+    width: 783px;
+    height: 160px;
+}
+
+.agree-checkbox {
+    display: flex;
+}
+
+.agree-checkbox input {
+    margin-right: 12px;
+}
+
+.submit-button {
+    width: 70px;
+    height: 38px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact__title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact__form input[type='text'] {
+    width: 585px;
+    height: 34px;
+}
+
+.contact__form input[type='email'] {
+    width: 585px;
+    height: 54px;
+}
+
+.contact__label {
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.select-issue {
+    width: 750px;
+}
+
+.contact__form textarea {
+    width: 750px;
+    margin-bottom: 7px;
+    height: 160px;
+}
+
+.contact-image img {
+    width: 156px;
+    height: 218px;
+}
+
+.contact-image {
+    position: absolute;
+    right: 130px;
+    top: 90px;
+}

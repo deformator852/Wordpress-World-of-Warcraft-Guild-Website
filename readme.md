@@ -14,8 +14,14 @@ The site has a responsive design of such screen resolutions:768px-900px and 900p
 
 ## Sidebar
 ![Пример изображения](./site_view/Default/sidebar/1.png)
+
+
 ![Пример изображения](./site_view/Default/sidebar/2.png)
+
+
 ![Пример изображения](./site_view/Default/sidebar/3.png)
+
+
 ![Пример изображения](./site_view/Default/sidebar/sidebar.gif)
 
 
@@ -28,12 +34,17 @@ The site has a responsive design of such screen resolutions:768px-900px and 900p
 # Adaptive design for 768px - 1200px screens
 ![Пример изображения](./site_view/768x900/1.png)
 
+
 ![Пример изображения](./site_view/768x900/2.png)
+
 
 ![Пример изображения](./site_view/768x900/3.png)
 
+
 ![Пример изображения](./site_view/768x900/4.png)
 
+
 ![Пример изображения](./site_view/768x900/5.png)
+
 
 ![Пример изображения](./site_view/768x900/6.png)

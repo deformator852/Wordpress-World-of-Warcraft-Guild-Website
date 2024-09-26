@@ -7,4 +7,4 @@ This site also has the ability to send letters if you want to join the guild and
 The site has a responsive design of such screen resolutions:768px-900px and 900px-1200px.
 
 #  The standard look of a website for computers:
-![Пример изображения](./site_view/Default/home\page/1.png)
+![Пример изображения](./site_view/Default/home%20page/1.png)

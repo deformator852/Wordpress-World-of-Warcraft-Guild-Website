@@ -18,13 +18,10 @@ The site has a responsive design of such screen resolutions:768px-900px and 900p
 ## Gallery
 ![Пример изображения](./site_view/Default/gallery/1.png)
 
-## Guild Rules
-![Пример изображения](./site_view/Default/guild_rules/1.png)
-
-## Recruitment
-![Пример изображения](./site_view/Default/recruitment/1.png)
-
-## Contact
-![Пример изображения](./site_view/Default/contact/1.png)
-
-
+# Adaptive design for 768px - 1200px screens
+![Пример изображения](./site_view/768x900/1.png)
+![Пример изображения](./site_view/768x900/2.png)
+![Пример изображения](./site_view/768x900/3.png)
+![Пример изображения](./site_view/768x900/4.png)
+![Пример изображения](./site_view/768x900/5.png)
+![Пример изображения](./site_view/768x900/6.png)
